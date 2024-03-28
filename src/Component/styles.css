@@ -1,0 +1,152 @@
+
+label{
+    font-family:Lucida Bright;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+body   
+{  
+height: 100vh;  
+margin-top: 0px;  
+background-size: cover;  
+font-family: sans-serif;  
+}  
+header{  
+background-color: rgb(255, 255, 255);  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 0;  
+height: 80px;  
+display: flex;  
+align-items: center;   
+} 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+header * {  
+display: inline-flex;  
+}  
+header li {  
+margin: 50px;  
+}  
+header li a {  
+  color: rgb(255, 255, 255); 
+  font-family: Lucida Bright; 
+  text-decoration: none; 
+  text-align: right;
+  font-size: 15px;
+} 
+h6{
+  font-size: 15px;
+}
+a:hover{
+  background-color:rgba(0, 0, 0, 0.664);
+  color: rgb(255, 255, 255);
+}
+.containers {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.image {
+  flex-basis: 50%
+}
+.text {
+  font-size: 10px;
+  padding-left: 20px;
+  color: rgb(110, 73, 8);
+}
+hr{
+  width: '1000px';
+  right: 0% ;
+  margin-top: '1000px';
+}
+h3{
+  font-family: 'italics';
+  font-size: 30px;
+}
+
+
+  .slep .word{
+    position: absolute;
+
+    left: 160px;
+    bottom: 130px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    
+  }
+  .animate {
+    animation: 15s linear 15s infinite alternate slidein;
+}
+.end{
+  display:flex;
+  flex-flow: row;
+  justify-content:space-evenly;
+  font-size: 25px;
+  color:rgba(0, 0, 0, 0.63);
+  text-align: center;
+  }
+.one{
+      border-left:0.2px solid rgba(29, 23, 23, 0.596);
+      height: 150px;
+      justify-content: center;
+}
+.ff{
+  transition: transform .5s ease;
+  
+}
+.ff:hover{
+  transform: scale(1.2);
+}
+.start{
+  display:flex;
+  flex-flow: row;
+  justify-content:center;
+  align-items: center;
+  font-size: 25px;
+  color:rgba(0, 0, 0, 0.63);
+  text-align: center;
+  border-width: 30px;
+  border-style: double;
+  border-color:white;
+}
+.des{
+  background-color: rgba(19, 17, 3, 0.582);
+  border-width: 10px;
+  border-style: double;
+  border-color:white;
+  font-family: 'Segoe Script';
+  color:white;
+}
+.two{
+  align-items: space-between;
+  justify-content: space-between;
+}
+.three{
+  position: relative;
+}
+.h{
+  transition: transform .5s ease;
+}
+.h:hover{
+  transform: scale(1.2);
+}
+.middle{
+  padding-left: 15%;
+  padding-right: 15%;
+  position: relative;
+  text-align: center;
+  font-family: "MV Boli";
+  background-color: rgba(0, 0, 0, 0.064);
+  font-size: 20px;
+}
